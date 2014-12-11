@@ -1,5 +1,10 @@
 # Ken O'Brien - Individual Project
 
+# Program to read World Bank GDP indicators from the database.  Calculates regression
+# for each country with complete data between GDP Growth versus GDP Debt
+# the Regression is calculated for each country, the a Regresson for all countries is 
+# calculated.  Plots for various starting total debt percentage are displayed
+
 library(RMySQL) # will load DBI as well
 library(ggplot2)
 library(car) 
