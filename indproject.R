@@ -130,6 +130,8 @@ scatterplot(slopevec~interceptvec | incomeLevel, data=regressresultsIncome,
 legend(cex=0.7,xjust=0, yjust=0,text.font=1, y.intersp=.5, xpd=TRUE,text.width = 40, "topright",  legend=c(sort(unique(regressresultsIncome$incomeLevel))), pch=c(1,2,3,4,5), title="Income Level Groups")
 # inset=c(-0.02,.65),
 
+print("Summary for All Countries")
+summary(allcountryfit)
 # Evaluate Nonlinearity
 # component + residual plot 
 #crPlots(allcountryfit)
